@@ -3,12 +3,336 @@
 
 <head>
     <meta charset="utf-8">
+    <title>Fælles hjemmeside for kurset Det poetiske internet 2024</title>
+
+    <style>
+        body,
+        h1,
+        h2,
+        p {
+            margin: 0;
+        }
+
+        body {
+            /*background-color: darkgreen;*/
+        }
+
+        header {
+            width: 100%;
+            height: 10vh;
+            background-color: chartreuse;
+        }
+
+        .header {
+            padding: 20px;
+            text-transform: uppercase;
+            overflow: hidden;
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        td,
+        th {
+            border: 1px solid #dddddd;
+            text-align: left;
+            vertical-align: top;
+            padding: 15px;
+            height: 300px;
+
+        }
+
+        .tHead {
+            height: auto;
+        }
+
+        #scroll-text {
+            /* animation properties */
+            -moz-transform: translateX(100%);
+            -webkit-transform: translateX(100%);
+            transform: translateX(100%);
+
+            -moz-animation: my-animation 30s linear infinite;
+            -webkit-animation: my-animation 30s linear infinite;
+            animation: my-animation 30s linear infinite;
+        }
+
+
+        @keyframes my-animation {
+            from {
+                -moz-transform: translateX(-100%);
+                -webkit-transform: translateX(100%);
+                transform: translateX(100%);
+            }
+
+            to {
+                -moz-transform: translateX(100%);
+                -webkit-transform: translateX(-100%);
+                transform: translateX(-100%);
+            }
+        }
+
+
+        .container1 {
+            display: grid;
+            grid-template-rows: 20;
+            grid-template-columns: 1fr 1fr 1fr;
+            border: 1px solid #dddddd;
+        }
+
+        .container2 {
+            display: grid;
+            grid-template-rows: 1;
+            grid-template-columns: 1fr 1fr;
+            background-color: cornflowerblue;
+        }
+
+        .container3 {
+            display: grid;
+            grid-template-rows: 1;
+            grid-template-columns: 1fr 1fr;
+
+        }
+
+        .a1, .a2, .a3 {
+            padding: 15px;
+            border: 1px solid #dddddd;
+        }
+
+        .lister {
+            padding: 75px;
+        }
+
+        h1 {
+            font-size: 50pt;
+            font-family: "Jacquard 12", system-ui;
+            font-weight: 400;
+            font-style: normal;
+        }
+
+        li,
+        p {
+            font-size: 14pt;
+        }
+
+        span {
+            font-size: 25pt;
+        }
+
+    </style>
 </head>
 
 <body>
-    <h1>Velkommen til workshoppen Det poetiske internet efterår 2024</h1>
-    <p>Hej hej hej</p>
-    
+    <header>
+        <div class="header">
+            <h2 id="scroll-text"><span>&#9760;</span> &nbsp; Det poetiske internet &nbsp; &nbsp; <span>&#10048;</span> &nbsp; &nbsp; Det poetiske internet &nbsp;<span>&#9775;</span></h2>
+        </div>
+    </header>
+    <main>
+        <section class="container1">
+            <div class="a1" class="tHead">
+                <p><b>Link til forside</b></p>
+            </div>
+            <div class="a2" class="tHead">
+                <p><b>Beskrivelse</b></p>
+            </div>
+            <div class="a3" class="tHead">
+                <p><b>Forfatter/designer</b></p>
+            </div>
+            <!-- 1. studerende -->
+            <div class="a1">
+                <p>...</p>
+            </div>
+            <div class="a2">
+                <p>...</p>
+            </div>
+            <div class="a3">
+                <p>Adriaan Sixten Arne Sager</p>
+            </div>
+            <!-- 2. studerende -->
+            <div class="a1">
+                <p>...</p>
+            </div>
+            <div class="a2">
+                <p>...</p>
+            </div>
+            <div class="a3">
+                <p>Alaa-Karim Mansur Mohammad</p>
+            </div>
+            <!-- 3. studerende -->
+            <div class="a1">
+                <p>...</p>
+            </div>
+            <div class="a2">
+                <p>...</p>
+            </div>
+            <div class="a3">
+                <p>Christoffer Kanstrup Kjær</p>
+            </div>
+            <!-- 4. studerende -->
+            <div class="a1">
+                <p>...</p>
+            </div>
+            <div class="a2">
+                <p>...</p>
+            </div>
+            <div class="a3">
+                <p>Drees Akil Al-Rashed</p>
+            </div>
+            <!-- 5. studerende -->
+            <div class="a1">
+                <p>...</p>
+            </div>
+            <div class="a2">
+                <p>...</p>
+            </div>
+            <div class="a3">
+                <p>Emil Frost Andersen</p>
+            </div>
+            <!-- 6. studerende -->
+            <div class="a1">
+                <img src="images/Frederikke_screenshot.png" width="100%">
+            </div>
+            <div class="a2">
+                <p><a href="https://frederikkebbjerring.github.io/iris/iris.html" target="_blank">https://frederikkebbjerring.github.io/iris/iris.html</a></p>
+            </div>
+            <div class="a3">
+                <p>Frederikke Bjørn Bjerring</p>
+            </div>
+            <!-- 7. studerende -->
+            <div class="a1">
+                <p>...</p>
+            </div>
+            <div class="a2">
+                <p>...</p>
+            </div>
+            <div class="a3">
+                <p>Frederik Willer Svinth</p>
+            </div>
+            <!-- 8. studerende -->
+            <div class="a1">
+                <p>...</p>
+            </div>
+            <div class="a2">
+                <p>...</p>
+            </div>
+            <div class="a3">
+                <p>Gabrielle Alstroemeria Martinaise</p>
+            </div>
+            <!-- 9. studerende -->
+            <div class="a1">
+                <img src="images/G%C3%BCl_screenshot.png" width="100%">
+            </div>
+            <div class="a2">
+                <p><a href="https://ilaydademirr.github.io/baeredygtig_stil/" target="_blank">https://ilaydademirr.github.io/baeredygtig_stil/</a></p>
+            </div>
+            <div class="a3">
+                <p>Gül Ilayda Demir</p>
+            </div>
+            <!-- 10. studerende -->
+            <div class="a1">
+                <p>...</p>
+            </div>
+            <div class="a2">
+                <p>...</p>
+            </div>
+            <div class="a3">
+                <p>Inti Elias Martinez Vest</p>
+            </div>
+            <!-- 11. studerende -->
+            <div class="a1">
+                <img src="images/Laura_screenshot.png" width="100%">
+            </div>
+            <div class="a2" class="tHead">
+                <p><a href="https://lauranormann.github.io/Socialmedie/ex.14.html" target="_blank">https://lauranormann.github.io/Socialmedie/ex.14.html</a></p>
+            </div>
+            <div class="a3" class="tHead">
+                <p>Laura Normann Olsen</p>
+            </div>
+            <!-- 12. studerende -->
+            <div class="a1" class="tHead">
+                <p>...</p>
+            </div>
+            <div class="a2" class="tHead">
+                <p>...</p>
+            </div>
+            <div class="a3" class="tHead">
+                <p>Leith Jalil Hashim Al-Baka</p>
+            </div>
+            <!-- 13. studerende -->
+            <div class="a1" class="tHead">
+                <p>...</p>
+            </div>
+            <div class="a2" class="tHead">
+                <p>...</p>
+            </div>
+            <div class="a3" class="tHead">
+                <p>Lubaba Ali Staytie</p>
+            </div>
+            <!-- 14. studerende -->
+            <div class="a1" class="tHead">
+                <p>...</p>
+            </div>
+            <div class="a2" class="tHead">
+                <p>...</p>
+            </div>
+            <div class="a3" class="tHead">
+                <p>Lukas Gerhardt Rassing</p>
+            </div>
+            <!-- 15. studerende -->
+            <div class="a1" class="tHead">
+                <p>...</p>
+            </div>
+            <div class="a2" class="tHead">
+                <p>...</p>
+            </div>
+            <div class="a3" class="tHead">
+                <p>Luna Dam Christensen</p>
+            </div>
+            <!-- 16. studerende -->
+            <div class="a1" class="tHead">
+                <p>...</p>
+            </div>
+            <div class="a2" class="tHead">
+                <p>...</p>
+            </div>
+            <div class="a3" class="tHead">
+                <p>Martina Olushola Adeogun Beck Andersen</p>
+            </div>
+            <!-- 17. studerende -->
+            <div class="a1" class="tHead">
+                <p>...</p>
+            </div>
+            <div class="a2" class="tHead">
+                <p>...</p>
+            </div>
+            <div class="a3" class="tHead">
+                <p>Nova Ravn Rasmussen Sewerin</p>
+            </div>
+            <!-- 18. studerende -->
+            <div class="a1" class="tHead">
+                <p>...</p>
+            </div>
+            <div class="a2" class="tHead">
+                <p>...</p>
+            </div>
+            <div class="a3" class="tHead">
+                <p>Paulius Alinauskas</p>
+            </div>
+            <!-- 19. studerende -->
+            <div class="a1" class="tHead">
+                <p>...</p>
+            </div>
+            <div class="a2" class="tHead">
+                <p>...</p>
+            </div>
+            <div class="a3" class="tHead">
+                <p>Safia Abdifata Mahamed Osman</p>
+            </div>
+        </section>
+    </main>
 </body>
 
 </html>
